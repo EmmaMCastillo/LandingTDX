@@ -54,28 +54,6 @@
         fixedContentPos: false
     });
 
-  // Cuando se haga scroll, ejecuta la función
-  window.onscroll = function () {
-    showWhatsappButton();
-};
-
-
-
-    window.addEventListener("scroll", function() {
-        var sections = document.querySelectorAll("section");
-        var navLinks = document.querySelectorAll(".nav-link");
-        
-        sections.forEach(function(section, index) {
-            var rect = section.getBoundingClientRect();
-            if (rect.top <= window.innerHeight && rect.bottom >= 0) {
-                navLinks.forEach(function(link) {
-                    link.classList.remove("active");
-                });
-                navLinks[index].classList.add("active");
-            }
-        });
-    });
-
     // Count Time 
     function makeTimer() {
         var endTime = new Date("november 29, 2024 14:00:00 PDT");			

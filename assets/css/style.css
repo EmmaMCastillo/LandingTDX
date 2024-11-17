@@ -114,7 +114,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #FF2D55;
+  background: #00acee;
   height: 100%;
   z-index: -1;
   transition: 0.5s;
@@ -215,7 +215,7 @@ p:last-child {
   margin-bottom: 10px;
 }
 .section-title h2 b {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #05F2F2 80%);
   font-weight: unset;
   background-size: 100px 1.07em !important;
 }
@@ -243,7 +243,7 @@ p:last-child {
   position: relative;
   width: 20px;
   height: 4px;
-  background: #FF2D55;
+  background: #06E7AB;
   display: block;
 }
 .section-title .bar::after, .section-title .bar::before {
@@ -259,7 +259,7 @@ p:last-child {
   right: -29px;
 }
 .section-title .bar::before {
-  background: #efa506;
+  background: #0d1028;
   width: 30px;
   right: -63px;
 }
@@ -339,7 +339,7 @@ Preloader CSS
   margin: -80px 0 0 -75px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #FF2D55;
+  border-top-color: #06E7AB;
   animation: spin 1.7s linear infinite;
   z-index: 11;
 }
@@ -352,7 +352,7 @@ Preloader CSS
   bottom: 5px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #efa506;
+  border-top-color: #00acee;
   animation: spin-reverse 0.6s linear infinite;
 }
 .preloader .loader:after {
@@ -391,7 +391,7 @@ Navbar CSS
   display: none;
 }
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  color: #06E7AB;
 }
 
 .elkevent-nav {
@@ -428,10 +428,10 @@ Navbar CSS
   margin-right: 13px;
 }
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  color: #06E7AB;
 }
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
-  color: #FF2D55;
+  color: #06E7AB;
 }
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
@@ -504,7 +504,7 @@ Navbar CSS
   padding: 5px 0;
   z-index: 999;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #0d1028 !important;
+  background-color: #000A1E !important;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
@@ -597,9 +597,9 @@ Main Banner CSS
   z-index: -2;
 }
 
-/* .item-bg1 {
+.item-bg1 {
   background-image: url(../../assets/img/main-bg1.jpg);
-} */
+}
 
 .item-bg2 {
   background-image: url(../../assets/img/main-bg2.jpg);
@@ -633,7 +633,7 @@ Main Banner CSS
   left: 18%;
   margin-left: -190px;
   z-index: -1;
-  border: 18px solid rgba(104, 89, 222, 0.24);
+  border: 18px solid rgba(116, 204, 231, 0.137);
   box-sizing: border-box;
   box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
 }
@@ -644,21 +644,22 @@ Main Banner CSS
   font-size: 65px;
 }
 .main-banner-content h1 span {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #2086E1
+  80%);
   background-size: 100px 1.2em !important;
 }
 .main-banner-content h1 b:nth-of-type(1) {
-  color: #efa506;
+  color: #2086E1;
 }
 .main-banner-content h1 b:nth-of-type(2) {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .main-banner-content h1 b:nth-of-type(3) {
   color: #ffffff;
   animation: colorchange 20s;
 }
 .main-banner-content h1 b:nth-of-type(4) {
-  color: #00acee;
+  color: #06E7AB;
 }
 .main-banner-content ul {
   padding: 0;
@@ -674,7 +675,7 @@ Main Banner CSS
 }
 .main-banner-content ul li i {
   margin-right: 3px;
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .main-banner-content ul li:last-child {
   margin-right: 0;
@@ -731,7 +732,7 @@ Main Banner CSS
   color: #00acee;
 }
 .main-banner-content .button-box .video-btn:hover i, .main-banner-content .button-box .video-btn:focus i {
-  background-color: #FF2D55;
+  background-color: #05F2F2;
   color: #ffffff;
 }
 .main-banner-content.banner-content-center {
@@ -741,7 +742,7 @@ Main Banner CSS
 
 .countdown-area {
   padding: 50px 0;
-  background: #8dc63f;
+  background: #aeafb1;
 }
 .countdown-area .event-countdown {
   position: relative;
@@ -753,7 +754,7 @@ Main Banner CSS
   margin: 0 55px;
 }
 .countdown-area .event-countdown #timer div#seconds {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 
 .event-countdown {
@@ -771,7 +772,7 @@ Main Banner CSS
   position: relative;
 }
 .event-countdown #timer div#days {
-  color: #FF2D55;
+  color: #022873;
 }
 .event-countdown #timer div#hours {
   color: #00acee;
@@ -788,7 +789,7 @@ Main Banner CSS
   margin-top: -12px;
 }
 .event-countdown #timer div#seconds {
-  color: #efa506;
+  color: #05F2F2;
 }
 .event-countdown #timer div#seconds span {
   right: -48px;
@@ -886,19 +887,19 @@ Main Banner CSS
 }
 @keyframes colorchange {
   0% {
-    color: #FF2D55;
+    color: #022873;
   }
   25% {
     color: #ffffff;
   }
   50% {
-    color: red;
+    color: #06E7AB;
   }
   75% {
     color: #00acee;
   }
   0% {
-    color: #efa506;
+    color: #05F2F2;
   }
 }
 .home-slides.owl-theme .owl-nav {
@@ -925,7 +926,7 @@ Main Banner CSS
   right: 10px;
 }
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #FF2D55;
+  background-color: #00acee;
   color: #ffffff;
   opacity: 1;
   outline: 0;
@@ -1003,7 +1004,7 @@ About CSS
 }
 
 .about-content span {
-  color: #FF2D55;
+  color: #00acee;
   font-family: "Oswald", sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
@@ -1016,7 +1017,7 @@ About CSS
   margin-bottom: 25px;
 }
 .about-content h2 b {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #05F2F2 80%);
   font-weight: unset;
   background-size: 100px 1.05em !important;
 }
@@ -1122,7 +1123,7 @@ About CSS
   position: relative;
 }
 .about-area-three .about-content ul li i {
-  color: #FF2D55;
+  color: #00acee;
   position: absolute;
   left: 0;
   top: 50%;
@@ -1156,7 +1157,7 @@ Why Choose Us CSS
   padding: 0;
   margin: 0;
 }
-.why-choose-us .slideshow li span {
+/*.why-choose-us .slideshow li span {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -1169,9 +1170,34 @@ Why Choose Us CSS
   opacity: 0;
   z-index: 0;
   backface-visibility: hidden;
-  animation: imageAnimation 24s linear infinite 0s;
+  animation: imageAnimation 50s linear infinite 0s;
 }
-
+.why-choose-us .slideshow li:nth-child(1) span {
+  background-image: url(../../assets/img/registration-bg.jpg);
+}
+.why-choose-us .slideshow li:nth-child(2) span {
+  background-image: url(../../assets/img/banner-bg.jpg);
+  animation-delay: 6s;
+}
+.why-choose-us .slideshow li:nth-child(3) span {
+  background-image: url(../../assets/img/registration-bg.jpg);
+  animation-delay: 12s;
+}
+.why-choose-us .slideshow li:nth-child(4) span {
+  background-image: url(../../assets/img/banner-bg.jpg);
+  animation-delay: 18s;
+}*/
+.why-choose-us .slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/img/banner-bg.jpg); /* Imagen de fondo única */
+}
 
 .col-lg-3:first-child .single-box {
   border-left: none;
@@ -1210,7 +1236,7 @@ Why Choose Us CSS
 }
 .single-box .content .icon {
   font-size: 45px;
-  color: #FF2D55;
+  color: #00acee;
 }
 .single-box .content h3 {
   font-size: 26px;
@@ -1276,7 +1302,7 @@ Why Choose Us CSS
   margin-bottom: 0;
 }
 .why-choose-content a {
-  color: #FF2D55;
+  color: #00acee;
   font-family: "Oswald", sans-serif;
   margin-top: 15px;
 }
@@ -1300,7 +1326,7 @@ Why Choose Us CSS
 CTA CSS
 =================================================*/
 .cta-area {
-  background-color: #FF2D55;
+  background-color: #00acee;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1344,7 +1370,7 @@ Speakers CSS
   margin-bottom: 0;
 }
 .single-speakers .speakers-content h3 a {
-  color: #FF2D55;
+  color: #00acee;
 }
 .single-speakers .speakers-content h3 a:hover, .single-speakers .speakers-content h3 a:focus {
   color: #8dc63f;
@@ -1590,11 +1616,11 @@ Speakers CSS
   box-shadow: 0 0 28px 0 rgba(6, 74, 255, 0.22);
 }
 .single-speakers-box:hover::before, .single-speakers-box:hover::after {
-  border-color: #FF2D55;
+  border-color: #00acee;
   transform: scale(1);
 }
 .single-speakers-box:hover .speakers-content {
-  background: #FF2D55;
+  background: #00acee;
 }
 .single-speakers-box:hover .speakers-content::before {
   width: 100%;
@@ -1648,7 +1674,7 @@ Schedule CSS
   left: 0;
   bottom: -15px;
   position: absolute;
-  background: #FF2D55;
+  background: #00acee;
   content: "";
   transform: rotate(45deg);
   right: 0;
@@ -1682,7 +1708,7 @@ Schedule CSS
   background-color: #efa506;
 }
 .tabs li.current {
-  background-color: #FF2D55;
+  background-color: #06E7AB;
 }
 .tabs li.current::before {
   opacity: 1;
@@ -2169,6 +2195,7 @@ FunFacts CSS
 .funfacts-area {
   position: relative;
   z-index: 1;
+  background-image: url(../../assets/img/blog.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2392,19 +2419,19 @@ Pricing CSS
 }
 
 .col-lg-4:nth-child(2) .pricing-table-box .pricingTable-header {
-  background: #00acee;
+  background: #022873;
 }
 .col-lg-4:nth-child(2) .pricing-table-box .btn-primary::before, .col-lg-4:nth-child(2) .pricing-table-box .btn-primary::after {
-  background: #00acee;
+  background: #022873;
 }
 .col-lg-4:nth-child(2) .pricing-plan h3 {
-  background: #00acee;
+  background: #022873;
 }
 .col-lg-4:nth-child(2) .pricing-plan h3 span {
-  color: #00acee;
+  color: #022873;
 }
 .col-lg-4:nth-child(2) .pricing-plan .btn-primary::before, .col-lg-4:nth-child(2) .pricing-plan .btn-primary::after {
-  background: #00acee;
+  background: #022873;
 }
 .col-lg-4:nth-child(3) .pricing-table-box .pricingTable-header {
   background: #8dc63f;
@@ -2657,7 +2684,7 @@ Buy Tickets CSS
 .buy-tickets-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img/funfacts-bg.jpg);
+  background-image: url(../../assets/img/registration-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3903,45 +3930,6 @@ Footer CSS
   color: #a8a8ad;
 }
 
-/* Estilo para el botón de WhatsApp */
-.whatsapp-button {
-  position: fixed;
-  right: 1.5%;
-  bottom: 10%; /* Ajustamos para que esté un poco más arriba que el botón de volver al inicio */
-  width: 50px;
-  height: 50px;
-  background-color: #25d366; /* Color de WhatsApp */
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  font-size: 24px;
-  z-index: 9999;
-  transition: 0.5s ease-in-out;
-  outline: none;
-}
-
-/* Agrega el efecto al pasar el mouse */
-.whatsapp-button:hover {
-  background-color: #128c7e; /* Color cuando pasa el mouse */
-}
-
-/* Aparece cuando se hace scroll (clase .show) */
-.whatsapp-button.show-whatsapp-button {
-  bottom: 10%; /* Se mantiene en la posición ajustada */
-  visibility: visible;
-}
-
-/* Icono de WhatsApp */
-.whatsapp-button i {
-  margin: 0;
-}
-
-
-
 /*================================================
 Back To Top CSS
 =================================================*/
@@ -3961,7 +3949,7 @@ Back To Top CSS
   visibility: hidden;
   outline: 0 !important;
   transition: 0.5s;
-  background-color: #00acee;
+  background-color: #05F2F2;
 }
 .back-to-top::before, .back-to-top::after {
   content: "";
@@ -3975,12 +3963,12 @@ Back To Top CSS
 .back-to-top::before {
   top: -20px;
   z-index: 4;
-  border-bottom: 20px solid #00acee;
+  border-bottom: 20px solid #05F2F2;
 }
 .back-to-top::after {
   bottom: 0;
   z-index: 5;
-  border-bottom: 20px solid #FF2D55;
+  border-bottom: 20px solid #2086E1;
 }
 .back-to-top:hover, .back-to-top:focus {
   opacity: 1;
@@ -4273,10 +4261,11 @@ About Area CSS
 .m-about-image {
   position: relative;
   z-index: 1;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px; /* Mantengo el padding */
+  display: flex; /* Añade flexbox para alineación */
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  height: 100%; /* Asegura que el contenedor tome toda la altura de su contenedor padre */
 }
 .m-about-image .shape-1 {
   position: absolute;
@@ -4289,6 +4278,10 @@ About Area CSS
   left: 0;
   bottom: 0;
   animation: movebounce 5s linear infinite;
+}
+.m-about-image img {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Ajusta el tamaño y la opacidad de la sombra */
+  border-radius: 10px; /* Opcional, redondea las esquinas de la imagen */
 }
 
 .m-about-content {
@@ -4581,7 +4574,7 @@ Schedule Area CSS
   border: none;
 }
 .m-schedule-list-tabs .nav .nav-item .nav-link {
-  background-color: #FF2D55;
+  background-color: #05F2F2;
   margin: 0;
   border-radius: 0;
   border: none;
@@ -4596,7 +4589,7 @@ Schedule Area CSS
   left: 0;
   bottom: -15px;
   position: absolute;
-  background: #FF2D55;
+  background: #05F2F2;
   content: "";
   transform: rotate(45deg);
   right: 0;
@@ -4695,7 +4688,7 @@ Schedule Area CSS
   margin-bottom: 15px;
 }
 .m-schedule-list-tabs .tab-content .tab-pane .accordion .accordion-item .accordion-button p span {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .m-schedule-list-tabs .tab-content .tab-pane .accordion .accordion-item .accordion-button h3 {
   font-size: 22px;
@@ -4706,7 +4699,7 @@ Schedule Area CSS
   content: "\eee4";
   font-family: IcoFont;
   right: 0;
-  color: #FF2D55;
+  color: #05F2F2;
   font-size: 18px;
 }
 .m-schedule-list-tabs .tab-content .tab-pane .accordion .accordion-item .accordion-button:not(.collapsed)::before {
@@ -4738,7 +4731,7 @@ Schedule Area CSS
   border-bottom: none;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .schedule-info .title span {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .schedule-info .title h3 {
   color: #ffffff;
@@ -4747,13 +4740,13 @@ Schedule Area CSS
   color: #ffffff;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .accordion .accordion-item .accordion-button p span {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .accordion .accordion-item .accordion-button h3 {
   color: #ffffff;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .accordion .accordion-item .accordion-button::before {
-  color: #FF2D55;
+  color: #05F2F2;
 }
 .m-schedule-list-tabs.e-border-color .tab-content .tab-pane .schedule-list-item .accordion .accordion-item .accordion-button:not(.collapsed)::before {
   color: #ffffff;
