@@ -119,25 +119,25 @@
 
 							<div class="col-lg-4 col-md-12 offset-lg-1 offset-md-0">
 								<div class="banner-form">
-                                    <form>
+                                    <form method="post" action="https://systeme.io/embedded/23225352/subscription">
                                         <div class="form-group">
                                             <label>Nombre</label>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" name=first_name >
                                         </div>
 
                                         <div class="form-group">
                                             <label>Email</label>
-                                            <input type="email" class="form-control">
+                                            <input type="email" class="form-control" name=email>
                                         </div>
 
                                         <div class="form-group">
                                             <label>Teléfono</label>
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" name=phone_number>
                                         </div>
                                         
                                         <div class="form-group">
                                             <label>Industria</label>
-                                            <select class="form-control">
+                                            <select class="form-control" name=motivo_contacto>
                                                 <option>Financiera</option>
                                                 <option>Logística y Transporte</option>
                                                 <option>Salud</option>
@@ -151,7 +151,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Cargo</label>
-                                            <select class="form-control">
+                                            <select class="form-control" name=rol>
                                                 <option>CEO / Presidente</option>
                                                 <option>Director General</option>
                                                 <option>Vicepresidente (VP)</option>
@@ -373,7 +373,7 @@
 		</section>
 		<!-- End Speakers Area  -->
 
-		<!-- Start Schedule Area -->
+		<!-- Start Schedule Area 
 		<section class="schedule-area bg-image ptb-120" id="agenda">
 			<div class="container">
 				<div class="section-title">
@@ -965,7 +965,7 @@
 			<div class="shape2 rotateme"><img src="assets/img/shapes/2.png" alt="shape2"></div>
 			<div class="shape3 rotateme"><img src="assets/img/shapes/3.png" alt="shape3"></div>
 			<div class="shape4"><img src="assets/img/shapes/4.png" alt="shape4"></div>
-		</section>
+		</section>-->
 		<!-- End Schedule Area -->
 
 		<!-- Start FunFacts Area -->
@@ -977,7 +977,7 @@
 							<div class="icon">
 								<i class="icofont-focus" ></i>
 							</div>
-							<h3 class="odometer" data-count="21" style="color: #06E7AB;">00</h3>
+							<h3 class="odometer" data-count="7" style="color: #06E7AB;">00</h3>
 							<p>Total Temas</p>
 						</div>
 					</div>
@@ -987,8 +987,8 @@
 							<div class="icon">
 								<i class="icofont-microphone"></i>
 							</div>
-							<h3 class="odometer" data-count="32">00</h3>
-							<p>Total Oradores</p>
+							<h3 class="odometer" data-count="5">00</h3>
+							<p>Total Skpeakers</p>
 						</div>
 					</div>
 
@@ -997,7 +997,7 @@
 							<div class="icon">
 								<i class="icofont-copy"></i>
 							</div>
-							<h3 class="odometer" data-count="75" style="color: #05F2F2;">00</h3>
+							<h3 class="odometer" data-count="4" stsyle="color: #05F2F2;">00</h3>
 							<p>Patrocinadores</p>
 						</div>
 					</div>
@@ -1007,7 +1007,7 @@
 							<div class="icon">
 								<i class="icofont-users-social"></i>
 							</div>
-							<h3 class="odometer" data-count="999" style="color: #8690a3;">00</h3>
+							<h3 class="odometer" data-count="50" style="color: #8690a3;">00</h3>
 							<p>Asistencia Total</p>
 						</div>
 					</div>
@@ -1113,6 +1113,51 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<!-- Begin Brevo Form -->
+<!-- START - We recommend to place the below code in head tag of your website html  -->
+<style>
+	@font-face {
+	  font-display: block;
+	  font-family: Roboto;
+	  src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+	}
+  
+	@font-face {
+	  font-display: fallback;
+	  font-family: Roboto;
+	  font-weight: 600;
+	  src: url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+	}
+  
+	@font-face {
+	  font-display: fallback;
+	  font-family: Roboto;
+	  font-weight: 700;
+	  src: url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.brevo.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+	}
+  
+	#sib-container input:-ms-input-placeholder {
+	  text-align: left;
+	  font-family: Helvetica, sans-serif;
+	  color: #c0ccda;
+	}
+  
+	#sib-container input::placeholder {
+	  text-align: left;
+	  font-family: Helvetica, sans-serif;
+	  color: #c0ccda;
+	}
+  
+	#sib-container a {
+	  text-decoration: underline;
+	  color: #2BB2FC;
+	}
+  </style>
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <!--  END - We recommend to place the above code in head tag of your website html -->
+
+		</section>
 		<!-- End Buy Tickets Area -->
 
 		<!-- Start Footer Area -->
@@ -1141,9 +1186,9 @@
 							<p>"¡Síguenos en nuestras redes sociales y mantente al tanto de todas nuestras novedades!"</p>
 							
 							<ul class="social-links">
-								<li><a href="https://www.facebook.com/login/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a></li>
-								<li><a href="https://www.instagram.com/accounts/login/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/login" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a></li>
+								<li><a href="https://www.facebook.com/tdxcore/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/tdxcore/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/tdxcore" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
